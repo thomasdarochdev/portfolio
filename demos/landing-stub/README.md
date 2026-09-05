@@ -1,18 +1,41 @@
 # Landing stub (Next.js)
 
-Squelette minimal pour une landing freelance.
+Squelette **exécutable** pour une landing freelance — preuve publique de stack, pas un faux site client.
 
-## Stack prevue
+## Stack
 
-- Next.js (App Router)
-- Tailwind CSS
-- Deploiement Vercel
+- Next.js 15 (App Router)
+- React 19 + TypeScript
+- CSS léger (pas de dépendance Tailwind obligatoire dans ce stub)
+- Déploiement prévu : Vercel
+
+## Fichiers
+
+| Fichier | Rôle |
+|---------|------|
+| `app/page.tsx` | Hero, offres 890 / 1890 / 3500, preuves, contact |
+| `app/layout.tsx` | Metadata + shell HTML |
+| `app/globals.css` | Styles minimalistes |
+| `package.json` | Dépendances Next |
+| `tsconfig.json` / `next.config.ts` | Config TypeScript / Next |
+
+## Lancer en local
+
+```bash
+cd demos/landing-stub
+npm install
+npm run dev
+```
+
+Ouvrir http://localhost:3000
 
 ## Sections
 
 1. Hero + CTA
-2. Offres (890 / 1890 / 3500)
-3. Preuves / portfolio
+2. Offres (890 / 1890 / 3500 EUR)
+3. Preuves / lien CASE-STUDIES
 4. Contact
 
-Stub volontairement leger : preuve publique, pas un faux site client.
+Acompte typique mission réelle : **40 %**.
+
+Stub volontairement léger : artefact GitHub pour vente freelance.
